@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap');
+body {
+  color: #676a81;
+  background: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+/*  nav css */
+.container1 {
+  position: relative;
+  height: 29px;
+  background-color: white;
+}
+.salma {
+  padding: 8px 16px;
+  float: left;
+  font-size: 12px;
+  display: block;
+  color: #8d4681;
+  text-transform: uppercase;
+}
+
+.topnav a {
+  float: right;
+
+  display: block;
+  color: #6b6161;
+  text-align: center;
+  padding: 11px 16px;
+  text-decoration: none;
+  font-size: 8px;
+}
+.topnav a:hover {
+  color: #8d4681;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 340px) {
+  .salma {
+    font-size: 8px;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+  }
+
+  .container1 {
+    height: 35px;
+  }
+}
+
+/* intro css */
+
+.intro::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: rgb(36 28 46 / 75%);
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Set a negative z-index to place it below other elements */
+
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("./static/media/backgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* Set the width to 100% of viewport width */
+  height: 100vh; /* Set the height to 100% of viewport height */
+  z-index: 0; /* Set a negative z-index to place it below other elements */
+
+}
+
+.container2{
+  font-family: 'Kalnia', serif;
+  color: white;
+  z-index: 1; /* Set a negative z-index to place it below other elements */
+
+}
+
+.hh2 {
+  margin-left: 50px;
+}
+
+.container2 a{
+  width: 94px;
+  height: 16px;
+  line-height: 17px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  color: #fff;
+  background: #c09ad5;
+  border: 1px solid #c09ad5;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--lack);
+  font-size: 9px;
+  margin-left: 174px;
+  padding-left: 3px;
+  
+}
+
+@media screen and (max-width: 340px) {
+  .container2{
+    font-size: 10px;
+  }
+  .container2 a{
+    margin-left: auto;
+  }
+
+}
+
+
+/* about section */
+
+.abouthead{
+
+  font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #e5ebf2;
+    text-align: center;
+}
+
+.abouthead p {
+  margin-top: 24px;
+}
+
+.flex-container {
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  font-size: 8px;
+}
+
+
+
+.flex-item-left {
+  padding: 20px;
+
+  flex: 50%;
+}
+
+.pp {
+  border-bottom: 0.6px solid #999fb3;
+  padding-bottom: 15px;
+}
+
+div.flex-item-right {
+  flex: 15%;
+  margin-right: 10px;
+}
+
+
+
+
+.row{
+  display: flex;
+  padding-top: 10px;
+
+}
+.linkss
+{display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 125px;
+  
+
+}
+
+.linkss ul li {
+display: inline-block;
+  text-decoration: none;
+
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+.icon{
+  color: #474548;
+  padding: 2px;
+
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 300px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item-right{
+    margin-left: 40px;
+  }
+}
