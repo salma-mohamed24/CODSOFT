@@ -46,12 +46,8 @@ const Mainpage = () => {
             <p> Salma Mohamed</p>
             <p className="hh2">Front-end Developer</p>
 
-            <a
-              href="https://drive.google.com/file/d/1x3Me9wyQKpzXc8lCJ8U38TfjAsXB_oxV/view?usp=drive_link"
-              target="_blank"
-            >
-              download resume
-            </a>
+            <a href="https://drive.google.com/file/d/1x3Me9wyQKpzXc8lCJ8U38TfjAsXB_oxV/view?usp=drive_link"
+              target="_blank"> My resume   </a>
           </div>
         </div>
 
@@ -230,14 +226,14 @@ const Mainpage = () => {
         >
           <section className="container3">
             <div className="vedio1">
-              <p style={{ paddingBottom: "10px" }}>Admin Dash-board</p>
+              <p style={{ paddingBottom: "10px" }} >Admin Dash-board</p>
 
               <div
                 className="vedio2"
                 style={{ aspectRatio: "25 / 14", paddingRight: "60px" }}
               >
-                <video controls>
-                  <source src={adminvedio} type="video/mp4" />
+                <video controls >
+                  <source src={adminvedio} type="video/mp4"  />
                 </video>
               </div>
             </div>
@@ -250,14 +246,14 @@ const Mainpage = () => {
 
             <div style={{ marginLeft: "20px", paddingTop: "15px" }}>
               <a href="#img2" style={{ textDecoration: "none" }}>
-                {" "}
-                <img src={lib2} className="imggroup" alt="" />{" "}
+            
+                <img src={lib2} className="imggroup" alt="" />
               </a>
               <div id="img2" className="bigimage">
                 <p className="content">Register</p>
 
                 <a href="#library" className="close">
-                  {" "}
+                  
                   x
                 </a>
                 <img src={lib2} alt="" className="imagecontent" />
