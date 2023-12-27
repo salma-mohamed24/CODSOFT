@@ -35,12 +35,6 @@ import graph7 from "../static/portfolio/graphic/task 7.jpg";
 import graph8 from "../static/portfolio/graphic/task 8.jpg";
 import graph9 from "../static/portfolio/graphic/task 9.jpg";
 
-
-
-
-
-
-
 const Mainpage = () => {
   return (
     <>
@@ -49,10 +43,13 @@ const Mainpage = () => {
 
         <div className="intro">
           <div className="container2">
-            <p> Hi I'm Salma , </p>
+            <p> Salma Mohamed</p>
             <p className="hh2">Front-end Developer</p>
 
-            <a   href="https://drive.google.com/file/d/1x3Me9wyQKpzXc8lCJ8U38TfjAsXB_oxV/view?usp=drive_link" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/1x3Me9wyQKpzXc8lCJ8U38TfjAsXB_oxV/view?usp=drive_link"
+              target="_blank"
+            >
               download resume
             </a>
           </div>
@@ -96,12 +93,18 @@ const Mainpage = () => {
               <div className="linkss">
                 <ul>
                   <li>
-                    <a href="https://www.linkedin.com/in/salma-mohamed-5726ab1b8/">
+                    <a
+                      href="https://www.linkedin.com/in/salma-mohamed-5726ab1b8/"
+                      target="_blank"
+                    >
                       <FaLinkedin className="icon" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/salma-mohamed24">
+                    <a
+                      href="https://github.com/salma-mohamed24"
+                      target="_blank"
+                    >
                       <FaGithub className="icon" />
                     </a>
                   </li>
@@ -216,15 +219,18 @@ const Mainpage = () => {
         </div>
 
         {/* project section */}
+        <div className="projectshead">
+          <p>Projects</p>
+        </div>
 
-        <div name="projects " className="projects">
-          <div className="projectshead">
-            <p>Projects</p>
-          </div>
-
-          <section className="container">
+        <div
+          name="projects "
+          className="projects"
+          style={{ backgroundColor: "#d7e5de61" }}
+        >
+          <section className="container3">
             <div className="vedio1">
-              <p style={{paddingBottom:"10px"}}>Admin Dash-board</p>
+              <p style={{ paddingBottom: "10px" }}>Admin Dash-board</p>
 
               <div
                 className="vedio2"
@@ -237,192 +243,353 @@ const Mainpage = () => {
             </div>
           </section>
 
+          <section style={{ backgroundColor: "#d7e5de61", marginTop: "50px" }}>
+            <p id="library" style={{ marginLeft: "20px", paddingTop: "5px" }}>
+              Library - Figma UI Project
+            </p>
 
+            <div style={{ marginLeft: "20px", paddingTop: "15px" }}>
+              <a href="#img2" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib2} className="imggroup" alt="" />{" "}
+              </a>
+              <div id="img2" className="bigimage">
+                <p className="content">Register</p>
 
-          <section style={{backgroundColor:"#d7e5de61" , marginTop:"50px"}} >
-          <p id="library" style={{marginLeft:"20px" ,paddingTop:"5px" ,}}>Library - Figma UI Project</p>
-
-          <div style={{marginLeft:"20px" , paddingTop:"15px" }} >
-          
-              
-
-              <a href="#img2" style={{textDecoration:"none"}}> <img src={lib2}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img2" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib2}  alt="" className="imagecontent"/>
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib2} alt="" className="imagecontent" />
               </div>
 
-              <a href="#img3" style={{textDecoration:"none"}}> <img src={lib3}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img3" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib3}  alt="" className="imagecontent"/>
-              </div>
-            
-            
-            
-              <a href="#img5" style={{textDecoration:"none"}}> <img src={lib5}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img5" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib5}  alt="" className="imagecontent"/>
+              <a href="#img3" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib3} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="img3" className="bigimage">
+                <p className="content">Login</p>
+
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib3} alt="" className="imagecontent" />
               </div>
 
-              <a href="#img6" style={{textDecoration:"none"}}> <img src={lib6}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img6" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib6}  alt="" className="imagecontent"/>
-              </div>
-            
-              <a href="#img1" style={{textDecoration:"none"}}> <img src={lib1}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img1" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib1}   alt="" className="imagecontent"/>
+              <a href="#img5" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib5} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="img5" className="bigimage">
+                <p className="content">Ptofile</p>
+
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib5} alt="" className="imagecontent" />
               </div>
 
-              <a href="#img4" style={{textDecoration:"none"}}> <img src={lib4}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="img4" className="bigimage"> 
-              <a href="#library" className="close"> x</a>
-              <img src={lib4}  alt="" className="imagecontent"/>
+              <a href="#img6" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib6} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="img6" className="bigimage">
+                <p className="content">Admin</p>
+
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib6} alt="" className="imagecontent" />
               </div>
 
-          </div>
+              <a href="#img1" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib1} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="img1" className="bigimage">
+                <p className="content">Home</p>
+
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib1} alt="" className="imagecontent" />
+              </div>
+
+              <a href="#img4" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={lib4} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="img4" className="bigimage">
+                <p className="content">Category</p>
+
+                <a href="#library" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={lib4} alt="" className="imagecontent" />
+              </div>
+            </div>
           </section>
 
+          <section style={{ marginLeft: "20px", paddingTop: "50px" }}>
+            <p id="Vehicle" style={{ paddingBottom: "10px" }}>
+              Vehicle Detiction - Graduation Project
+            </p>
 
-          <section style={{marginLeft:"20px" , paddingTop:"50px"}}>
-          <p id="Vehicle" style={{paddingBottom:"10px"}}>Vehicle Detiction - Graduation Project</p>
+            <div>
+              <a href="#image3" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad3} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image3" className="bigimage">
+                <p className="content">Sign up</p>
 
-          <div >
-          
-              <a href="#image3" style={{textDecoration:"none"}}> <img src={grad3}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image3" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad3}   alt="" className="imagecontent"/>
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad3} alt="" className="imagecontent" />
               </div>
-              <a href="#image4" style={{textDecoration:"none"}}> <img src={grad4}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image4" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad4}  alt="" className="imagecontent"/>
-              </div>
+              <a href="#image4" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad4} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image4" className="bigimage">
+                <p className="content">Verfication code</p>
 
-              <a href="#image9" style={{textDecoration:"none"}}> <img src={grad9}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image9" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad9}  alt="" className="imagecontent"/>
-              </div>
-            
-              <a href="#image6" style={{textDecoration:"none"}}> <img src={grad6}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image6" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad6}  alt="" className="imagecontent"/>
-              </div>
-            
-              <a href="#image7" style={{textDecoration:"none"}}> <img src={grad7}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image7" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad7}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#image8" style={{textDecoration:"none"}}> <img src={grad8}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image8" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad8}  alt="" className="imagecontent"/>
-              </div>
-            
-              <a href="#image5" style={{textDecoration:"none"}}> <img src={grad5}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image5" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad5}  alt="" className="imagecontent"/>
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad4} alt="" className="imagecontent" />
               </div>
 
-              <a href="#image10" style={{textDecoration:"none"}}> <img src={grad10}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image10" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad10}  alt="" className="imagecontent"/>
-              </div>
-                <a href="#image1" style={{textDecoration:"none"}}> <img src={grad1} alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="image1" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad1}   alt="" className="imagecontent"/>
+              <a href="#image9" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad9} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image9" className="bigimage">
+                <p className="content">Admin</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad9} alt="" className="imagecontent" />
               </div>
 
-              <a href="#image2" style={{textDecoration:"none"}}> <img src={grad2}   alt="" style={{width:"100%" , maxWidth:"150px"}}/> </a>
-              <div id="image2" className="bigimage"> 
-              <a href="#Vehicle" className="close"> x</a>
-              <img src={grad2}   alt="" className="imagecontent"/>
+              <a href="#image6" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad6} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image6" className="bigimage">
+                <p className="content">Change password</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad6} alt="" className="imagecontent" />
               </div>
-          </div>
+
+              <a href="#image7" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad7} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image7" className="bigimage">
+                <p className="content">Login</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad7} alt="" className="imagecontent" />
+              </div>
+              <a href="#image8" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad8} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image8" className="bigimage">
+                <p className="content">Forget password</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad8} alt="" className="imagecontent" />
+              </div>
+
+              <a href="#image5" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad5} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image5" className="bigimage">
+                <p className="content">Profile</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad5} alt="" className="imagecontent" />
+              </div>
+
+              <a href="#image10" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad10} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image10" className="bigimage">
+                <p className="content">Vehicle detection </p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad10} alt="" className="imagecontent" />
+              </div>
+              <a href="#image1" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad1} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image1" className="bigimage">
+                <p className="content">Home</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad1} alt="" className="imagecontent" />
+              </div>
+
+              <a href="#image2" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={grad2} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="image2" className="bigimage">
+                <p className="content">Violation rules</p>
+
+                <a href="#Vehicle" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={grad2} alt="" className="imagecontent" />
+              </div>
+            </div>
           </section>
 
+          <section style={{ backgroundColor: "#d7e5de61", marginTop: "50px" }}>
+            <p id="graphic" style={{ marginLeft: "20px", paddingTop: "5px" }}>
+              Graphic Design Projects
+            </p>
 
-
-          <section style={{backgroundColor:"#d7e5de61" , marginTop:"50px"}} >
-          <p id="graphic" style={{marginLeft:"20px" ,paddingTop:"5px" ,}}>Graphic Design Projects</p>
-
-          <div style={{marginLeft:"20px" , paddingTop:"15px" }} >
-          
-              <a href="#graph1" style={{textDecoration:"none"}}> <img src={graph1}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph1" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph1}  alt="" className="imagecontent"/>
-              </div>
-
-              <a href="#graph2" style={{textDecoration:"none"}}> <img src={graph2}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph2" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph2}  alt="" className="imagecontent"/>
-              </div>
-            
-            
-              <a href="#graph3" style={{textDecoration:"none"}}> <img src={graph3}   alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph3" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph3}   alt="" className="imagecontent"/>
+            <div style={{ marginLeft: "20px", paddingTop: "15px" }}>
+              <a href="#graph1" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph1} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph1" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph1} alt="" className="imagecontent" />
               </div>
 
-              <a href="#graph4" style={{textDecoration:"none"}}> <img src={graph4}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph4" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph4}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#graph5" style={{textDecoration:"none"}}> <img src={graph5}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph5" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph5}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#graph6" style={{textDecoration:"none"}}> <img src={graph6}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph6" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph6}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#graph7" style={{textDecoration:"none"}}> <img src={graph7}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph7" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph7}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#graph8" style={{textDecoration:"none"}}> <img src={graph8}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph8" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph8}  alt="" className="imagecontent"/>
-              </div>
-              <a href="#graph9" style={{textDecoration:"none"}}> <img src={graph9}  alt="" style={{width:"100%" , maxWidth:"150px"}}/>  </a>
-              <div id="graph9" className="bigimage"> 
-              <a href="#graphic" className="close"> x</a>
-              <img src={graph9}  alt="" className="imagecontent"/>
+              <a href="#graph2" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph2} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph2" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph2} alt="" className="imagecontent" />
               </div>
 
-          </div>
+              <a href="#graph3" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph3} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph3" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph3} alt="" className="imagecontent" />
+              </div>
+
+              <a href="#graph4" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph4} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph4" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph4} alt="" className="imagecontent" />
+              </div>
+              <a href="#graph5" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph5} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph5" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph5} alt="" className="imagecontent" />
+              </div>
+              <a href="#graph6" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph6} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph6" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph6} alt="" className="imagecontent" />
+              </div>
+              <a href="#graph7" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph7} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph7" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph7} alt="" className="imagecontent" />
+              </div>
+              <a href="#graph8" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph8} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph8" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph8} alt="" className="imagecontent" />
+              </div>
+              <a href="#graph9" style={{ textDecoration: "none" }}>
+                {" "}
+                <img src={graph9} alt="" className="imggroup" />{" "}
+              </a>
+              <div id="graph9" className="bigimage">
+                <a href="#graphic" className="close">
+                  {" "}
+                  x
+                </a>
+                <img src={graph9} alt="" className="imagecontent" />
+              </div>
+            </div>
           </section>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
         {/* contact section */}
@@ -436,7 +603,7 @@ const Mainpage = () => {
             <form>
               <div className="row">
                 <div className="left">
-                  <label>First Name</label>
+                  <label>Name</label>
                 </div>
                 <div className="right">
                   {" "}
@@ -459,33 +626,21 @@ const Mainpage = () => {
 
               <div className="row">
                 <div className="left">
-                  {" "}
-                  <label>Phone</label>
+                  <label>Subject</label>
                 </div>
                 <div className="right">
-                  {" "}
-                  <input type="phone" />
-                </div>
-              </div>
-              <br />
-
-              <div className="row">
-                <div className="left">
-                  <label >Subject</label>{" "}
-                </div>
-                <div className="right">
-                  {" "}
                   <textarea style={{ height: "50px" }}></textarea>
                 </div>
               </div>
               <br />
               <div className="row">
-                <button> submit</button>{" "}
+                <button> send</button>
               </div>
             </form>
           </div>
         </div>
 
+        <br />
         <br />
       </div>
     </>

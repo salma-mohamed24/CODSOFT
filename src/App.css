@@ -305,7 +305,7 @@ span{
 
 }
 
-.container {
+.container3 {
 	padding-top: 2rem;
 }
 .vedio1 {
@@ -323,13 +323,22 @@ span{
 	scrollbar-width: none; /* Hide scrollbar Firefox */
 }
 
+.imggroup{
+width: 100%;
+max-width: 150px;
+
+}
+.imggroup:hover{
+  opacity: 0.5;
+
+}
+
 .bigimage{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 59px;
   padding-bottom: 100px;
-
   left: 0;
   top: 0;
   width: 100%;
@@ -351,6 +360,21 @@ span{
   font-size: 40px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.content{
+  
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ffffff;
+    height: 150px;
+    font-weight: bold;
+    margin-bottom: -114px;
+
+
 }
 
 .imagecontent{
@@ -399,7 +423,7 @@ button{
 .container4 {
   width: 350px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   background-color:#f7f7f7e3;
   border-left: 1px solid #8b8a8b;
   border-right: 1px solid #8b8a8b;
