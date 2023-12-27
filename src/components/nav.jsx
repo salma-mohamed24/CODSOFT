@@ -3,27 +3,27 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Nav = () => {
   return (
-    <div>
+    <div className="sticky-nav"> {/* Add a wrapper div for styling */}
       <div className="container1">
         <span className="salma">
           Salma Portfolio
         </span>
 
-        <div className="topnav" id="myTopnav">
+        <div className="nav1" >
           
-          <ScrollLink to="contact" smooth={true} duration={500}>
+          <ScrollLink to="contact" smooth={true} >
           Contact
           </ScrollLink>
           
-          <ScrollLink to="projects" smooth={true} duration={500}>
+          <ScrollLink to="projects" smooth={true} >
           Projects
           </ScrollLink>
 
-          <ScrollLink to="skils" smooth={true} duration={500}>
+          <ScrollLink to="skills" smooth={true} >
           Skills
           </ScrollLink>
 
-          <ScrollLink to="about" smooth={true} duration={500}>
+          <ScrollLink to="about" smooth={true} >
           About
           </ScrollLink>
 
